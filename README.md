@@ -41,14 +41,17 @@ Step 2: Once the extraction process is done take the required data and transform
 Step 3: Since the data  is in unstructed format , migrate the data to MySQL database from the MongoDB database for getting the structured data for analysis
 
 **EDA Process for the project** :
+
 Step 1: Filter and process the structured data from the tables depending on the given requirements by using SQL queries and transform the structured data into a DataFrame format.
 
 **Visualization process for the project**:
+
 Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table .
 
 
 
 **User Guideline:**
+
 Step 1 : **DATA COLLECTION **
 
        Search channel_id  from Youtube  and  copy and paste on the input box and click the  button in the Data collection zone which will upload the data in MongoDB Database
