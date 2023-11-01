@@ -19,10 +19,16 @@ This project extracts the particular youtube channel data by using the youtube c
 
 **The  Libraries Required for project  to Install**
 pip install google-api-python-client
+
 pymongo 
+
 mysql-connector-python
+
 sqlalchemy
- pandas  streamlit.
+
+ pandas 
+ 
+ streamlit.
 ( pip install google-api-python-client ,pymongo ,mysql-connector-python ,sqlalchemy, pandas ,streamlit )
 
 
@@ -42,11 +48,14 @@ Finally, create a Dashboard by using Streamlit and give dropdown options on the 
 
 
 **User Guideline:**
-Step 1 : DATA COLLECTION 
+Step 1 : **DATA COLLECTION **
+
        Search channel_id  from Youtube  and  copy and paste on the input box and click the  button in the Data collection zone which will upload the data in MongoDB Database
        
-Step 2 : INSERTING DATA INTO MYSQL 
+Step 2 : **INSERTING DATA INTO MYSQL **
+
         Select the channel name and click the Upload data  to MySQL button to migrate the specific channel data to the MySQL database from MongoDB .
         
-Step 3 : SELECT THE REQUIRED QUESTION TO GET INSIGHTS FROM DATA 
+Step 3 : **SELECT THE REQUIRED QUESTION TO GET INSIGHTS FROM DATA **
+
          Select a Question from the dropdown option you can get the results in Dataframe format.
