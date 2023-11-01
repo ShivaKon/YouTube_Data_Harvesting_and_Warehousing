@@ -28,7 +28,9 @@ sqlalchemy
 
 **ETL Process for the Project **
 Step 1 :  Extract data from particular youtube channel by using the youtube channel id, with the help of the youtube API developer console.
+
 Step 2: Once the extraction process is done take the required data and transform it into JSON format by inserting into the MongoDB database
+
 Step 3: Since the data  is in unstructed format , migrate the data to MySQL database from the MongoDB database for getting the structured data for analysis
 
 **EDA Process for the project** :
@@ -42,7 +44,9 @@ Finally, create a Dashboard by using Streamlit and give dropdown options on the 
 **User Guideline:**
 Step 1 : DATA COLLECTION 
        Search channel_id  from Youtube  and  copy and paste on the input box and click the  button in the Data collection zone which will upload the data in MongoDB Database
+       
 Step 2 : INSERTING DATA INTO MYSQL 
         Select the channel name and click the Upload data  to MySQL button to migrate the specific channel data to the MySQL database from MongoDB .
+        
 Step 3 : SELECT THE REQUIRED QUESTION TO GET INSIGHTS FROM DATA 
          Select a Question from the dropdown option you can get the results in Dataframe format.
