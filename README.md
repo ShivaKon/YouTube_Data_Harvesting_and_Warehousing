@@ -33,6 +33,7 @@ sqlalchemy
 
 
 **ETL Process for the Project **
+
 Step 1 :  Extract data from particular youtube channel by using the youtube channel id, with the help of the youtube API developer console.
 
 Step 2: Once the extraction process is done take the required data and transform it into JSON format by inserting into the MongoDB database
